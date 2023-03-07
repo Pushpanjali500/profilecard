@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:url("https://lh5.googleusercontent.com/p/AF1QipOn6rhh_P7K9GdpuMFBL6on-4uk3XFnAdyZTJ-o=w360-h240-n-k-no");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    height: 100vh;
+    
+}
+.container{
+    background: rgba(80, 58, 58, 0.27);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(80, 58, 58, 0.28);
+    padding: 8px;
+    width: 350px;;
+    border-radius: 1.5rem;
+
+}
+.box{
+    border-radius: 1rem;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+.gradient{
+    padding: 5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    opacity: 1;
+    filter: blur(20px);
+    background: linear-gradient(to left, aqua, blue, pink);
+}
+img{
+    width: 6rem; 
+    height: 6rem;
+     border-radius: 50%;
+     position: absolute;
+     top: 3rem;
+     left: 7rem;
+     
+
+}
+.name{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 0rem;
+    
+
+}
+.title{
+    font-size: 1rem;
+    color: gray;
+    text-align: center;
+    line-height: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+.about_desc .about{
+    letter-spacing: 1;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.about_desc .desc{
+    color: gray;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+.about_desc{
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-top: 1.8rem;
+}
+.icons{
+    display: flex;
+    gap: 2rem;
+    padding: 20px;
+    color: #f4efef;
+    color: gray;
+}
+.icon{
+    background-color: rgb(248, 242, 242);
+    border-radius: 50%;
+    padding: 6px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.active{
+    background-color: rgb(248, 242, 242);
+    width: 30%;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    padding-bottom: 13px;
+}
+.border{
+    border-bottom: 3px solid blue;
+}
